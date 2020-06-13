@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+## Welcome to XPiWhite
 
-You can use the [editor on GitHub](https://github.com/XPi3032/XPiWhite/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I provide whitelists for the Pi-hole on this site.
+***Coming Soon***
+If you would like to find out how to incorporate these whitelists into your Pi-hole, also see the [Whitelist Machine](wm.pinetmedia.com). 
 
 ### Markdown
 
