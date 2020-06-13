@@ -1,37 +1,33 @@
 ## Welcome to XPiWhite
 
 I provide whitelists for the Pi-hole on this site.
+
 ***Coming Soon***
-If you would like to find out how to incorporate these whitelists into your Pi-hole, also see the [Whitelist Machine](wm.pinetmedia.com). 
+If you would like to find out how to incorporate these whitelists into your Pi-hole, also see the [Whitelist Machine](http://wm.pinetmedia.com). 
 
-### Markdown
+### Whitelist Collection
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Whitelisting can be tough, sort of like whack-a-mole because ad server domains and tracking domains, etc are always changing.
+Sometimes, ads can come from the same servers as the website you're actually on! This makes it very hard to create a whitelist that works ALL the time.
+***Disclaimer - These whitelists may let some ads appear, however we do our best***
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## These whitelists are almost 99% sure to not let any ads in.
+```Markdown
+https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/optional-list.txt
+https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt
+http://masterwhitelist.pinetmedia.com
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## These whitelists are optional.
+```Markdown
+https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/referral-sites.txt
+```
 
-### Jekyll Themes
+# AnudeepND's Whitelist Script
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/XPi3032/XPiWhite/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+How to use the whitelisting script? Enter these commands into the command line interface of your Pi-hole.
+```Markdown
+git clone https://github.com/anudeepND/whitelist.git
+cd whitelist/scripts
+sudo ./whitelist.sh
+```
