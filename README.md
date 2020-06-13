@@ -16,6 +16,7 @@ Sometimes, ads can come from the same servers as the website you're actually on!
 https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/optional-list.txt
 https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt
 http://masterwhitelist.pinetmedia.com
+https://raw.githubusercontent.com/XPi3032/ionized-bricks/master/hosts/whitelisting/whitelist.txt
 ```
 
 ## These whitelists are optional.
