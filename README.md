@@ -20,6 +20,9 @@ https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/optional-li
 https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt
 http://masterwhitelist.pinetmedia.com
 https://raw.githubusercontent.com/XPi3032/ionized-bricks/master/hosts/whitelisting/whitelist.txt
+https://raw.githubusercontent.com/vincentkenny01/spotblock/master/whitelist
+https://raw.githubusercontent.com/vincentkenny01/spotblock/master/black.list
+https://raw.githubusercontent.com/vincentkenny01/spotblock/master/whitelist
 ```
 
 
