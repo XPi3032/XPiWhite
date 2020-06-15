@@ -35,14 +35,14 @@ https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/referral-si
 I have made my own beta whilelisting script. If you find any errors please go to [support.pinetmedia.com](http://support.pinetmedia.com).
 ```Markdown
 sudo apt-get update && sudo apt-get install wget apt-transport-https -y
-sudo wget https://raw.githubusercontent.com/XPi3032/XPiWhite/master/scripts/whitelist-one.sh
-sudo sh whitelist-one.sh
+sudo wget https://raw.githubusercontent.com/XPi3032/XPiWhite/master/scripts/whitelist.sh
+sudo sh whitelist.sh
 ```
 
 
 # AnudeepND's Whitelist Script
 
-How to use the whitelisting script? Enter these commands into the command line interface of your Pi-hole.
+How to use this whitelisting script? Enter these commands into the command line interface of your Pi-hole.
 ```Markdown
 git clone https://github.com/anudeepND/whitelist.git
 cd whitelist/scripts
