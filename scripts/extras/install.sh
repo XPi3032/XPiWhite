@@ -10,7 +10,13 @@ apt-get update
 apt-get full-upgrade -y
 apt autoremove -y
 apt-get install apt-transport-https git unzip -y
+cd /opt
+mkdir pakker-data
+cd pakker-data
+mkdir installation-files
+cd installation-files
 wget https://sites.google.com/site/hwanswers101/resources/figlet_2.2.5-3_armhf.deb
+dpkg -i figlet_2.2.5-3_armhf.deb
 echo 'Testing new software'
 sleep 2
 echo '  '
@@ -20,7 +26,7 @@ figlet "Testing 'FIGLET'"
 sleep 2
 echo 
 sleep 2
-echo 'Now installing pakker'
+echo 'Fetching latest ver. : 0.1.1 Beta'
 sleep 1
 wget http://192.168.68.138:3000/rkfortner/pakker/raw/master/components/pakker-core/pakker
 chmod +x pakker
